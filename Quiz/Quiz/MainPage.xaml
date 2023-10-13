@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Quiz.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#242624">
+
+
+    <VerticalStackLayout VerticalOptions="Start">
+
+        <Label
+            x:Name="Pontos"
+            Margin="30,20,0,20"
+            Padding="0"
+            FontSize="20"
+            IsVisible="False"
+            Text="Pontuação: 0"
+            TextColor="White" />
+
+        <VerticalStackLayout
+            x:Name="Perguntas"
+            Margin="0"
+            Padding="40"
+            IsVisible="False">
+
+            <Border
+                Margin="0,0,0,50"
+                HeightRequest="200"
+                StrokeShape="RoundRectangle 10"
+                WidthRequest="400">
+                <Image
+                    x:Name="Imagem"
+                    Aspect="AspectFill"
+                    Source="" />
+            </Border>
+
+
+            <Label
+                x:Name="LabelPergunta"
+                Margin="0,0,0,40"
+                FontSize="16"
+                HorizontalOptions="Center"
+                Text=""
+                TextColor="White" />
+
+
+            <Button
+                x:Name="Btn01"
+                Margin="15"
+                BackgroundColor="White"
+                Clicked="Validation"
+                Text=""
+                TextColor="Black" />
+
+            <Button
+                x:Name="Btn02"
+                Margin="15"
+                BackgroundColor="White"
+                Clicked="Validation"
+                Text=""
+                TextColor="Black" />
+
+            <Button
+                x:Name="Btn03"
+                Margin="15"
+                BackgroundColor="White"
+                Clicked="Validation"
+                Text=""
+                TextColor="Black" />
+
+            <Button
+                x:Name="Btn04"
+                Margin="15"
+                BackgroundColor="White"
+                Clicked="Validation"
+                Text=""
+                TextColor="Black" />
+
+
+            <Button
+                x:Name="Next"
+                Margin="20"
+                Padding="20"
+                BackgroundColor="#039700"
+                Clicked="NextQuestion"
+                CornerRadius="20"
+                FontSize="20"
+                IsVisible="false"
+                Text="Próxima Pergunta"
+                TextColor="White" />
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout x:Name="LayoutFinal" IsVisible="False">
+            <Label
+                x:Name="LabelFinal"
+                Margin="0,90,0,40"
+                FontSize="40"
+                HorizontalOptions="Center"
+                Text=""
+                TextColor="White" />
+
+            <Button
+                x:Name="Reset"
+                Margin="20"
+                Padding="15"
+                BackgroundColor="AliceBlue"
+                Clicked="ResetGame"
+                CornerRadius="20"
+                FontSize="Title"
+                Text="Reset Game"
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout x:Name="Home">
+            <Image
+                x:Name="imgLogo"
+                Margin="0,150,0,100"
+                HeightRequest="205"
+                Source="logo_app.svg" />
+
+            <Button
+                x:Name="btnIniciar"
+                Margin="70"
+                Padding="15"
+                BackgroundColor="#80FFA9"
+                Clicked="Start"
+                CornerRadius="20"
+                FontSize="Title"
+                Text="Iniciar"
+                TextColor="#272727"
+                VerticalOptions="Center" />
+        </VerticalStackLayout>
+
+
+    </VerticalStackLayout>
+
+
+
+</ContentPage>
