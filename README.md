@@ -11,7 +11,7 @@ Quiz Interativo: O aplicativo apresenta uma série de perguntas desafiadoras em 
 
 Interface do Usuário Intuitiva: O aplicativo possui uma interface do usuário simples e fácil de usar, tornando-o acessível para todos os usuários, independentemente de sua familiaridade com a tecnologia.
 
-Atualizações Regulares: Estamos comprometidos em manter nosso aplicativo atualizado com novas perguntas e recursos. Fique atento às atualizações.
+Atualizações Regulares: Estamos comprometidos em manter nosso aplicativo atualizado com novas perguntas e recursos. Fique atento às atualizações!
 
 ## Interfaces:
 
